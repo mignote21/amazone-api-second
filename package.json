@@ -72,9 +72,11 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
-  "scripts": {
-    "install":"node index.js"
-  },
+ "scripts": {
+  "install": "node index.js",
+  "build": "npm run build", 
+  "start": "node index.js" 
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
